@@ -42,10 +42,6 @@ def main():
     with Pool(20) as pool:
         pool.map(make_all, urls)
 
-    # response = get_ajax_text(url)
-     # for i in range(0, 10):
-    #     write_csv(get_ajax_text(url+1))
-
 
 if __name__ == '__main__':
     main()
